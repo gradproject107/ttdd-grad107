@@ -4,10 +4,10 @@ a:hover{color:#000000;background-color:transparent;text-decoration: none;}
 
 h1{font-size:10vh}
 .main{
-  height:100vh;
-  width:100vw;
+  height:70vh;
+  width:70vw;font-size:10vh;
   font-family:sans-serif;
- padding:20vw;
+ padding:15vw;
   
 
 }
