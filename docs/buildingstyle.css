@@ -1,15 +1,29 @@
 *{background:transparent;}
-a,a:link,a:visited{color:inherit;text-decoration: none;font-weight:300;}
+a,a:link,a:visited{color:inherit;text-decoration: none;font-weight:800;}
 a:hover{color:inherit;background-color:transparent;text-decoration: none;}
 
-h1{ font-size:8vh; color:inherit}
+h1{ font-size:7vh; color:inherit;}
 .main{
+  font-weight:200;
+  float:left;
   color:#623CEA;
-  height:80vh;
   width:40vw;
   font-size:5vh;
   font-family:sans-serif;
   padding-top:5vh;
+  padding-left:5vw;
   
 
+}
+@media screen and (min-width:800px) and (orientation: portrait) {
+  h1{ font-size:7vw;}
+.main{
+  float:none;
+  width:95vw;
+  font-size:5vh;
+  padding-top:2vh;
+  padding-left:none;
+  
+
+}
 }
