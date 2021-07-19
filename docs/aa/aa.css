@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "AA";
+    src: url("AAGX.ttf") format("opentype");
+}
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    cursor: inherit;
+    user-select: none;
+}
+
+#A {
+    font-family: AA;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#A .wrapper {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -25%);
+}
+
+#A p {
+    line-height: 1;
+    display: inline-block;
+    transform: translateY(-190px);
+    font-size: 500px;
+    font-variation-settings: 'wdth' 250;
+    
+}
+
+.clearfix::after { content: " "; display: block;  height: 0;  clear: both; }
