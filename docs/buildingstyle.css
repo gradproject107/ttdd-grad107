@@ -15,18 +15,6 @@ h1{ font-size:6vh; color:inherit;font-weight:inherit;}
   
 
 }
-@media screen and (min-width:800px) and (orientation: portrait) {
-  h1{ font-size:7vw;}
-.main{
-  float:none;
-  width:95vw;
-  font-size:5vh;
-  padding-top:2vh;
-  padding-left:none;
-  
-
-}
-}
 
 #A {
   position: absolute;
@@ -43,4 +31,17 @@ h1{ font-size:6vh; color:inherit;font-weight:inherit;}
   padding: 80px 80px;
   text-align: center;
   font-size: 20px;
+}
+
+@media screen and (min-width:800px) and (orientation: portrait) {
+  h1{ font-size:7vw;}
+.main{
+  float:none;
+  width:95vw;
+  font-size:5vh;
+  padding-top:2vh;
+  padding-left:none;
+  
+
+}
 }
