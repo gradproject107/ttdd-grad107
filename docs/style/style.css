@@ -8,6 +8,28 @@
      letter-spacing: 0.25px;
  }
  
+ #bodywhite {
+     background-color: white;
+     width: 100vw;
+     height: 100vh;
+     display: block;
+     z-index: -50;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+ }
+ 
+ #bodyblack {
+     background-color: black;
+     width: 100vw;
+     height: 100vh;
+     display: none;
+     z-index: -20;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+ }
+ 
  *::selection {
      color: black;
      background-color: white;
@@ -26,10 +48,10 @@
      color: inherit;
      cursor: default;
  }
- 
- #colorbutton {
+ /* #colorbutton {
      cursor: default;
  }
+  */
  
  .pc {
      display: block;
