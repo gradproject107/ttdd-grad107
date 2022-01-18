@@ -1,83 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/info.css">
-    <title>info</title>
-</head>
-
-<body>
-    <nav class=pc>
-        <b><a href="works-list.html">+works</a></b> <b><a href="designers.html">+designers</a></b> <b><a href="info.html">+info</a></b>
-    </nav>
-    <div id=nav2>
-        <b>EN/CH</b> <b id=colorbutton>●</b>
-        </nav>
-
-    </div>
-    <nav class=mobile id=openmenu>
-        <b>+menu</b>
-    </nav>
-    <nav class=mobile id=mobilenav>
-        <a href="works-list.html"><b>+works</b></a> <br><b><a href="designers.html">+designers</a></b> <br><b><a href="info.html">+info</a>
-        </b>
-        <div id=logo02>
-
-            <p class=logo> <a href="../index.html">
-                    NTUST<br> DEPARTMENT OF DESIGN<br> GRADSHOW
-                    <br>2022</p></a>
-                <p class=footer>
-                    2022 © National Taiwan University of Science and Technology
-                </p>
-        </div>
-    </nav>
-    <div id=logo class=pc>
-
-        <p class=logo> <a href="../index.html">
-                NTUST<br> DEPARTMENT OF DESIGN<br> GRADSHOW
-                <br>2022</p></a>
-            <p class=footer>
-                2022 © National Taiwan University of Science and Technology
-            </p>
-    </div>
-
-
-    <div class=container>
-        <h2> About Type Design (Letterform)<br>at Yale School of Art</h2>
-        <br>
-        <p>This website presents student work from Type Design or Letterform, an elective course within the Graphic Design (MFA) Department at Yale School of Art. Over the course of one semester, meeting for individual consultations once a week, students
-            develop typefaces more or less closely based on historical reference material. Students are asked to define functional goals for their projects, which their results will be measured against. Source material is treated as a guideline, an example
-            to learn from. <br> <br>The objective is to build a functioning and usable font as a consistent system of shapes and spaces, based on an understanding of the aesthetic demands of individual letterforms as well as the interrelations between
-            them.
-        </p>
-        <br>
-        <br>
-        <br>
-        <h2> Instructors </h2>
-        <p>Main instructor, fall semester (743a): Tobias Frere-Jones Main instructor, spring semester (743b): Nina Stössinger Additional critiques in both semesters: Matthew Carter
-            <br> <br> Main instructor, fall semester (743a): Tobias Frere-Jones Main instructor, spring semester (743b): Nina Stössinger Additional critiques in both semesters: Matthew Carter
-            <br> <br> Main instructor, fall semester (743a): Tobias Frere-Jones Main instructor, spring semester (743b): Nina Stössinger Additional critiques in both semesters: Matthew Carter
-        </p>
-        <br>
-        <br>
-        <br>
-        <p>This website was developed in April 2020 by Nina Stössinger and TA Julia Schäfer '20 with help from students Jun Jung '21, Mianwei Wang '21, Minhwan Kim '21, Sam Wood '20, and Yuanbo Wang '20. We thank Sarah Stevens-Morling for the technical setup.
-            This supporting typeface is Mallory by Tobias Frere-Jones. This website will be expanded over time to include work created in other years. </p>
-        <!-- <div id=logo03 class=mobile>
-            <p class=logo> <a href="../index.html">
-                        NTUST<br> DEPARTMENT OF DESIGN<br> GRADSHOW
-                        <br>2022</p></a>
-                <p class=footer>
-                    2022 © National Taiwan University of Science and Technology
-                </p>
-        </div> -->
-        <!-- <div class=mobile id=blur></div> -->
-    </div>
-    <script src="../script/script.js"></script>
-</body>
-
-</html>
+  .container {
+      line-height: 120%;
+      color: white;
+      mix-blend-mode: exclusion;
+      width: calc(50vw - 40px);
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      font-size: 14px;
+      /* overflow-x: hidden; */
+  }
+  
+  h2 {
+      line-height: 140%;
+  }
+  
+  #blur {
+      background-color: black;
+      position: fixed;
+      bottom: -20px;
+      left: -50px;
+      width: 130%;
+      height: 300px;
+      display: block;
+      filter: blur(12px);
+      display: none;
+  }
+  
+  @media(orientation: portrait),
+  (max-width: 600px) {
+      .container {
+          /* overflow-x: hidden; */
+          width: calc(90vw - 40px);
+          /* height: 80%; */
+          line-height: 20px;
+          left: 10%;
+          padding-top: 20%;
+          padding-bottom: 40%;
+      }
+      #blur {
+          display: block;
+      }
+  }
