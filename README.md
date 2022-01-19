@@ -6,7 +6,7 @@ https://gradproject107.github.io/ttdd-grad107/index.html
 
 ## 編輯參考
 
-### 1.影片的link複製
+### - 1.影片的link複製
 >複製下來的連結會長這樣
 >>```html
 >><div style="padding:56.25% 0 0 0;position:relative;">
