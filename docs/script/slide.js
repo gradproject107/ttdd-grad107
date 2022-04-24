@@ -2,13 +2,13 @@ function init() {
 
 }
 
-// function getRandomInt(max) {
-//     return Math.floor(Math.random() * max);
-// }
-// var r = getRandomInt(9);
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+var r = getRandomInt(9);
 
-// var slideIndex = r;
-var slideIndex = 0;
+var slideIndex = r;
+// var slideIndex = 0;
 slideshow();
 
 function slideshow() {
