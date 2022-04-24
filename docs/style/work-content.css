@@ -1,0 +1,232 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.container {
+    line-height: 120%;
+    color: var(--main-color-);
+    /* mix-blend-mode: exclusion; */
+    width: calc(50vw - 40px);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    padding-top: 10%;
+    font-size: 14px;
+}
+
+
+/* #blur {
+    background-color: black;
+    position: fixed;
+    bottom: -20px;
+    left: -50px;
+    width: 130%;
+    height: 300px;
+    display: block;
+    filter: blur(12px);
+    display: none;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 166%;
+}
+
+th {
+    padding-left: 0px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+td {
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.worktableleft {
+    width: 36%;
+}
+
+.tmp {
+    margin-left: -35%;
+}
+
+.designersinfotable {
+    display: none;
+    /* width: 90%; */
+    margin-top: 4%;
+    /* margin-left: 6%; */
+}
+
+.display {
+    display: block;
+}
+
+.designersname {
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+.designersinfo {
+    vertical-align: top;
+    /* font-size: 12px;
+    line-height: 16px; */
+    /* font-weight: 400; */
+    width: 64%;
+    padding-bottom: 60px;
+}
+
+.designersinfo h1 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+table a:hover {
+    color: white;
+    background-color: var(--main-color-);
+    background-blend-mode: normal;
+    /* filter: blur(4px); */
+}
+
+#imgbg {
+    position: absolute;
+    left: 0px;
+    top: 98vh;
+    padding-bottom: 42vh;
+    width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* mix-blend-mode: normal; */
+    /* z-index: 100; */
+    text-align: center;
+}
+
+.vid {
+    padding: 54.69% 0 0 0;
+    position: relative;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    cursor: none;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.workimg {
+    max-width: 100%;
+    max-height: 88vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+}
+
+.verticalimg {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    max-height: 100vh;
+}
+
+.squareimg {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    max-height: 50vw;
+}
+
+#backtotop {
+    text-align: left;
+    margin-left: 42px;
+    color: var(--main-color-);
+}
+
+@media (orientation: portrait)and (max-width: 650px) {
+    #imgbg {
+        padding-top: 10vh;
+        position: relative;
+        height: fit-content;
+        padding-bottom: 6vh;
+        overflow-x: hidden;
+    }
+    .worktableleft {
+        width: 40%;
+    }
+    .container {
+        overflow-x: hidden;
+        height: fit-content;
+        width: calc(90vw - 40px);
+        line-height: 20px;
+        left: 10%;
+        padding-top: 30%;
+        padding-bottom: 0%;
+    }
+    .squareimg {
+        margin-left: 15vw;
+        margin-right: 15vw;
+        max-height: 70vw;
+    }
+    .verticalimg {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-height: 520px;
+    }
+    iframe {
+        left: -2%;
+        width: 104%;
+        height: 104%;
+    }
+    .vid {
+        margin-bottom: 80px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #imgbg {
+        padding-top: 14vh;
+        position: relative;
+        height: fit-content;
+        padding-bottom: 6vh;
+        overflow-x: hidden;
+    }
+    /* .worktableleft {
+        width: 40%;
+    }
+    .container {
+        overflow-x: hidden;
+        height: fit-content;
+        width: calc(90vw - 40px);
+        line-height: 20px;
+        left: 10%;
+        padding-top: 12%;
+        padding-bottom: 0%;
+    } */
+}
+
+
+/* @media (max-width: 300px) {
+    .container {
+        transform: translateY(-10vh);
+    }
+} */
