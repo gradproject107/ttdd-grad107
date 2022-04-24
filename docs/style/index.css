@@ -58,8 +58,8 @@
     }
     .hslide {
         bottom: -10vw;
-        width: 120vw;
-        min-height: 80vw;
+        width: 120vh;
+        height: 80vh;
         /* width: fit-content; */
     }
     .vslide {
