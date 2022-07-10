@@ -2,18 +2,6 @@ function init() {
 
 
 }
-const openworks = document.getElementById("openworks");
-const workstags = document.getElementById("workstags");
-openworks.onclick = function() {
-    // workstags.classList.toggle("nodisplay");
-    if (openworks.innerHTML != "-WORKS") {
-        openworks.innerHTML = "-WORKS";
-    } else { openworks.innerHTML = "+WORKS"; }
-    if (workstags.style.display != "block") {
-        workstags.style.display = "block";
-    } else { workstags.style.display = "none" }
-
-}
 
 
 
